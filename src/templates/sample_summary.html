@@ -1,0 +1,42 @@
+<body>
+<h1>Patient Report</h1>
+<br>
+<h2>Patient Information</h2>
+<h3>Patient Name: {p.fname} {p.lname}</h3>
+<h3>Patient D.O.B: {p.DOB}</h3>
+<br>
+<h2>Depression Screening</h2>
+<h3>Score: {p.Depression_Score}</h3>
+<h3>Results: {p.Depression_Result} {p.Depression_emoji}</h3>
+<br>
+<h3>Little interest or pleasure in doing things: {p.D1}</h3>
+<h3>Felt down, depressed, or hopeless: {p.D2}</h3>
+<h3>Trouble falling or staying asleep, or sleeping too much: {p.D3}</h3>
+<h3>Felt tired or have little energy: {p.D4}</h3>
+<h3>Poor appetite or overate: {p.D5}</h3>
+<h3>Let yourself or your family down: {p.D6}</h3>
+<h3>Trouble concentrating on things: {p.D7}</h3>
+<h3>Moved or spoken so slowly/fidgety and restless: {p.D8}</h3>
+<h3>Thoughts of self harm: {p.D9}</h3>
+<br>
+<h2>Open-ended short answer</h2>
+<h3>Biggest Challenge: {p.challenge_text}</h3>
+<h4>Keywords: {p.challenge_kw}</h4>
+<h4>Facial Emotion: {p.challenge_face}</h4>
+<h4>Text Emotion: {p.challenge_text_emotion}</h4>
+
+<br>
+<h3>Recent Coping Mechanisms: {p.coping_text}</h3>
+<h4>Keywords: {p.coping_kw}</h4>
+<h4>Facial Emotion: {p.coping_face}</h4>
+<h4>Text Emotion: {p.coping_text_emotion}</h4>
+
+<br>
+<h3>Recent Goals: {p.goal_text}</h3>
+<h4>Keywords: {p.goal_kw}</h4>
+<h4>Facial Emotion: {p.goal_face}</h4>
+<h4>Text Emotion: {p.goal_text_emotion}</h4>
+
+<br>
+<input type="submit" id="next">
+</body>

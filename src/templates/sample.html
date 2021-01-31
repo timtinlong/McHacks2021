@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+  <head>
+	<style>
+	.button {
+	border: none;
+	color: black;
+	padding: 7px 14px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 8px;
+	margin: 4px 2px;
+	cursor: pointer;
+	}
+	.button1 {background-color: #ff9999;} /* Red */
+	.button2 {background-color: #ffcc99;} /* Orange */
+	.button3 {background-color: #ffff99;} /* Yellow */
+	.button4 {background-color: #99ff99;} /* Lime */
+	.button5 {background-color: #4CAF50;} /* Green */
+	</style>
+    <title>Wellness Check-up</title>
+  </head>
+  <body>
+    <h1>Sample Neural Network Processing</h1>
+    <img id="bg" src="{{ url_for('video_feed') }}">
+    <p id="bg" src="/emotion">
+
+	<button class="button button1">Disagree</button>
+	<button class="button button2">Slightly Disagree</button>
+	<button class="button button3">Neutral</button>
+	<button class="button button4">Slightly Agree</button>
+	<button class="button button5">Agree</button>
+
+  </body>
+  <form>
+	  <label for="fname">First name:</label><br>
+	  <input type="text" id="fname" name="fname"><br>
+	  <label for="lname">Last name:</label><br>
+	  <input type="text" id="lname" name="lname">
+  </form>
+  <!-- <form id="smileys"> -->
+	<!-- <input type="radio" name="smiley" value="sad" class="sad"> -->
+	<!-- <input type="radio" name="smiley" value="neutral" class="neutral"> -->
+	<!-- <input type="radio" name="smiley" value="happy" class="happy" checked="checked"> -->
+	<!-- <div>It looks like you're feeling <span id="result">happy</span> today..</div> -->
+	<!-- </form> -->
+</html>
+
+

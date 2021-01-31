@@ -1,0 +1,19 @@
+<style>
+.content {
+  max-width: 500px;
+  margin: auto;
+}
+</style>
+
+form {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
